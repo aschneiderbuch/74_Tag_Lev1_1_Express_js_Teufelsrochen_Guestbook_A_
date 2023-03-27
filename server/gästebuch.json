@@ -1,0 +1,45 @@
+[
+  {
+    "Vorname": "Tom",
+    "Nachname": "Müller",
+    "Email": "emal@g.d",
+    "Nachricht": "was geht ab in der Nachricht"
+  },
+  {
+    "Vorname": "Tom",
+    "Nachname": "Müller",
+    "Email": "emal@g.d",
+    "Nachricht": "was geht ab in der Nachricht"
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {
+    "getVorname": "ss",
+    "getNachname": "ss",
+    "getEmail": "ss",
+    "getNachricht": "ss"
+  },
+  {
+    "getVorname": "ss",
+    "getNachname": "ss",
+    "getEmail": "ss",
+    "getNachricht": "ss"
+  },
+  {
+    "getVorname": "ss",
+    "getNachname": "ss",
+    "getEmail": "ss",
+    "getNachricht": "ss"
+  },
+  {},
+  {
+    "getVorname": "tim",
+    "getNachname": "müller",
+    "getEmail": "emal@mül.co",
+    "getNachricht": "hallo"
+  }
+]
