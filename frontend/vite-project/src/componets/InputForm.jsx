@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 // rafc
 // schreibt automatische den Dateinamen und den import
-export const InputForm = ({ setPosts }) => {
+export const InputForm = ({ setPosts2 }) => {
     const [getVorname, setVorname] = useState()
     const [getNachname, setNachname] = useState()
     const [getEmail, setEmail] = useState()
@@ -33,7 +33,7 @@ export const InputForm = ({ setPosts }) => {
         })
             .then(res => res.json())
             .then(data => {
-                setPosts(data)
+                setPosts2(data)
                 console.log(data)
             })
 

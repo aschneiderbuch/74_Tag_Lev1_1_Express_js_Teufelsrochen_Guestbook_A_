@@ -3,6 +3,7 @@ import './App.css'
 import { InputForm } from './componets/InputForm.jsx'
 import { OutputGästebuch } from './componets/OutputGästebuch.jsx'
 
+
 function App() {
 const [getPosts, setPosts] = useState()
 
@@ -20,7 +21,7 @@ if (!getPosts) return
   return (
     <div className="App">
       <h1>Vite</h1>
-      <InputForm setPosts={ setPosts }></InputForm>
+      <InputForm setPosts2={ setPosts }></InputForm>
 
 
       {getPosts.map((post,index) => {
