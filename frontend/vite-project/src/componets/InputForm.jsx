@@ -46,9 +46,9 @@ export const InputForm = ({ setPosts2 }) => {
 
             <input type="text" placeholder="Vorname(ohneZahl)" onChange={(e) => setVorname(e.target.value)} ></input>
             <input type="text" placeholder="Nachname" onChange={(e) => setNachname(e.target.value)}></input>
-            <input type="text" placeholder='E-Mail' onChange={(e) => setEmail(e.target.value)} ></input>
+            <input type="email" placeholder='E-Mail' onChange={(e) => setEmail(e.target.value)} ></input>
             <input type="text" placeholder='Nachricht(Min2Max10)' onChange={(e) => setNachricht(e.target.value)}></input>
-
+            
             <button onClick={handleSubmitButton}>Absenden</button>
         </>
     )
