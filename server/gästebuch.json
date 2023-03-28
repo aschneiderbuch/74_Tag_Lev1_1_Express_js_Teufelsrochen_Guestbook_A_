@@ -5,140 +5,65 @@
     "Email": "emal@g.d",
     "Nachricht": "was geht ab in der Nachricht"
   },
-  {
-    "Vorname": "Tom",
-    "Nachname": "Müller",
-    "Email": "emal@g.d",
-    "Nachricht": "was geht ab in der Nachricht"
-  },
   {},
   {
-    "getVorname": "s",
-    "getNachname": "s",
-    "getEmail": "s",
-    "getNachricht": "s"
-  },
-  {
-    "getEmail": "y"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "y"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "y"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "y"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "y"
-  },
-  {
-    "getVorname": "ddd",
-    "getNachname": "d",
-    "getEmail": "y"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachricht": "ddddd"
-  },
-  {
-    "getEmail": "dd",
-    "getNachricht": "ddddd"
-  },
-  {
-    "getEmail": "dd",
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "dd",
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "dd",
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "dd",
-    "getNachricht": "ddddd"
-  },
-  {
-    "getNachname": "d",
-    "getEmail": "dd",
-    "getNachricht": "ddddd"
-  },
-  {},
-  {
-    "getNachricht": " y"
-  },
-  {
-    "getNachricht": "w"
-  },
-  {
+    "getVorname": "müll",
+    "getNachname": "tom",
+    "getEmail": "e",
     "getNachricht": "dd"
   },
   {
-    "getNachricht": "ss"
+    "Vorname": "true"
   },
   {
-    "getEmail": "s"
+    "Vorname": true
   },
   {
-    "getEmail": "dd",
-    "getNachricht": "dd"
+    "Vorname": true
+  },
+  {
+    "Vorname": 33
+  },
+  {
+    "Vorname": "33"
+  },
+  {
+    "getVorname": "dd"
+  },
+  {
+    "getVorname": "dd"
+  },
+  {
+    "getVorname": "dd"
+  },
+  {
+    "getVorname": "dd"
+  },
+  {
+    "getVorname": "33"
+  },
+  {
+    "getVorname": "33"
+  },
+  {
+    "getVorname": "33"
+  },
+  {
+    "getVorname": "3"
+  },
+  {
+    "getVorname": "222"
+  },
+  {
+    "getVorname": ""
+  },
+  {
+    "getVorname": "dd"
+  },
+  {
+    "getVorname": "dd"
+  },
+  {
+    "getVorname": "dd"
   }
 ]

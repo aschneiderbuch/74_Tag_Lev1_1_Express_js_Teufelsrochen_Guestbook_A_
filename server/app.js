@@ -5,7 +5,10 @@ import {
     writeFile,
     appendFile
 } from './funktionen.js';
-import morgan from 'morgan'
+import morgan from 'morgan';
+
+// !! Validierung der Daten die kommen
+import { body, validationResult } from 'express-validator'
 
 
 
@@ -43,7 +46,15 @@ app.get("/api/getPostGaestebuch", (req, res) => {
 
 
 // Post schicken
-app.post("/api/postPostGaestebuch", (req, res) => {
+app.post("/api/postPostGaestebuch", 
+// !! Validierung der Daten die kommen
+body('getVorname').notEmpty().isString().not().isNumeric(),
+(req, res) => {
+    // !! Validierung der Daten die kommen
+    const errors = validationResult(req)
+    if (!errors.isEmpty()) {
+        return res.status(400).json( { error: errors.array() } )
+    }
     // Head Body rausholen    express.json()
     const data = req.body
 
