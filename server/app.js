@@ -9,6 +9,8 @@ import morgan from 'morgan'
 
 
 
+
+
 const PORT = 9999
 const app = express()
 
@@ -18,10 +20,10 @@ const app = express()
 
 // Middleware
 // logger   muss als erster use sein
-app.use(morgan('dev'))
-
+  app.use(morgan('dev'))
+  
 //   - Cors für Sicherheit
-app.use(cors({ origin: "http://localhost:5174" }))
+app.use(cors({ origin: "http://localhost:5173" }))
 //    - zum Parsen von JSON    Und Head Body auslesen
 app.use(express.json())
 
