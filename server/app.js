@@ -55,7 +55,7 @@ body('getEmail').notEmpty().isEmail(),
     // !! Validierung der Daten die kommen
     const errors = validationResult(req)
     if (!errors.isEmpty()) {
-        return res.status(400).json( { error: errors.array() } )
+        return res.status(499).json( { error: errors.array() } )
     }
     // Head Body rausholen    express.json()
     const data = req.body
