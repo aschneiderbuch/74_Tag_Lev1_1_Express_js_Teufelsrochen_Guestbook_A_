@@ -49,6 +49,7 @@ app.get("/api/getPostGaestebuch", (req, res) => {
 app.post("/api/postPostGaestebuch", 
 // !! Validierung der Daten die kommen
 body('getVorname').notEmpty().isString().not().isNumeric(),
+body('getNachricht').notEmpty().isLength({min:2, max:10}),
 (req, res) => {
     // !! Validierung der Daten die kommen
     const errors = validationResult(req)
